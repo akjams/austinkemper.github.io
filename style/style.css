@@ -1,9 +1,18 @@
 
 
+#headshot {
+
+	
+	border-radius: 2%;
+	
+}
+
+
+
 #links #github {
 	list-style-image: url('../images/github.png');
 }
 
 #links #linkedin {
-
+	list-style-image: url('../images/linkedin.png');
 }
