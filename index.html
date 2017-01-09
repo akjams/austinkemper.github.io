@@ -2,93 +2,111 @@
 <html>
 	<head>
 		<title>Austin Kemper</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+
 		<link rel="icon" 
 		      type="image/png" 
 		      href="images/favicon.png">
 	</head>
 	<body>
-		<div id="links">
-			<h2> Links </h2>
-			<ul>
-				
-				<a href="images/resume.pdf" target="_blank">
-					<li id="resume">Resume</li>
-				</a>
-				<a href="https://github.com/austinkemper" target="_blank">
-					<li id="github">GitHub</li>
-				</a>
-				
-				
-				<a href="https://www.linkedin.com/in/austin-kemper-396914bb" target="_blank">	<li id="linkedin">LinkedIn</li>
-				</a>
-				
-				
-				<a href="mailto:akemper2@jhu.edu" target="_top">
-					<li id="email">akemper2@jhu.edu </li>
-				</a>
-				
-			</ul>
-		</div>
-		<div id="bio">
-			<img id="headshot" src="images/headshot.jpeg">
-			<p>
-				Hi there!  <br>
-				My name is Austin Kemper. I'm an undergraduate computer science major at Johns Hopkins University. This is my GitHub web page.
-			</p>
-		</div>
-		
-		<div id="projects">
-			<h1> Projects </h1>
 
-			<div id="websites">
-				<h2>Websites</h2>
-				<a href="http://www.hankehenryontime.com/">
-					The Hanke-Henry Permanent Calendar
-				</a>
-				<br><br><br>
-				<a href="Pokemon-Battle/index.html">
-					Pokemon Battle
-				</a>
+
+		<div class=".container">
+
+			<div class="page-header">
+				<h1>Austin Kemper</h1>
 			</div>
 
-			<div id="android">
-				<h2>Android Applications</h2>
-				<div id="apptable" class="table">
-					<div class="tablerow">
-						<div class="tablecell">
-							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.pipelayer" target = "_blank">
-								<h3>Pipe Layer</h3>
-								<img src="images/pipeLayer.png">
+			<div id="intro" class="jumbotron">
+
+
+					<div id="links">
+							<a class="btn btn-block btn-social btn-reddit" href="images/resume.pdf" target="_blank">
+								<i class="glyphicon glyphicon-file"> </i>Resume
+							</a> 
+							<a class="btn btn-block btn-social btn-github" href="https://github.com/austinkemper" target="_blank">
+								<i class="fa fa-github"></i>GitHub
+							</a>
+							<a class="btn btn-block btn-social btn-linkedin" href="https://www.linkedin.com/in/austin-kemper-396914bb" target="_blank">	<i class="fa fa-linkedin"></i>LinkedIn
+							</a>
+							<a class="btn btn-block btn-social btn-vimeo" href="mailto:akemper2@jhu.edu" target="_top">
+								<i class="glyphicon glyphicon-envelope"></i>akemper2@jhu.edu
+							</a>
+			
+					</div>
+
+					<div id="bio">
+						<img id="headshot" class="img-rounded" src="images/headshot.jpeg">
+						<p>
+							Hi there!  <br>
+							My name is Austin Kemper. I'm an undergraduate computer science major at Johns Hopkins University. This is my GitHub web page.
+						</p>			
+					</div>
+			</div>
+			
+			<div id="projects" class="jumbotron">
+				<h1> Projects </h1>
+
+				<div id="websites">
+					<h2>Websites</h2>
+					<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<a href="http://www.hankehenryontime.com/">
+								The Hanke-Henry Permanent Calendar
+								<img class="img-rounded" src="images/hhpc.png">
 							</a>
 						</div>
-						<div class="tablecell">
-							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.zombiebird" target = "_blank">
-								<h3>Speedy Bird</h3>
-								<img src="images/speedyBird.png">
+						<div class="col-sm-6 col-xs-12">
+							<a href="pokemon/index.html">
+								Pokemon Battle
 							</a>
-							
 						</div>
 					</div>
-					<div class="tablerow">
-						<div class="tablecell">
-							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.snake" target = "_blank">
-								<h3>Happy Snake</h3>
-								<img src="images/happySnake.png">
+				</div>
+
+				<div id="android">
+					<h2>Android Applications</h2>
+					<div class="row">
+						<div class = "col-sm-6 col-xs-12">
+							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.pipelayer" target = "_blank">
+								<h3>Pipe Layer</h3>
+								<img class="img-rounded" src="images/pipeLayer.png">
 							</a>
 						</div>
-						<div class="tablecell">
+						<div class = "col-sm-6 col-xs-12">
+							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.zombiebird" target = "_blank">
+								<h3>Speedy Bird</h3>
+								<img class="img-rounded" src="images/speedyBird.png">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class = "col-sm-6 col-xs-12">
+							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.snake" target = "_blank">
+								<h3>Happy Snake</h3>
+								<img class="img-rounded" src="images/happySnake.png">
+							</a>
+						</div>
+						<div class = "col-sm-6 col-xs-12">
 							<a href="https://play.google.com/store/apps/details?id=com.austinkemper.tictactoe" target = "_blank">
 								<h3>Tic Tac Toe</h3>
-								<img src="images/ticTacToe.png">
+								<img class="img-rounded" src="images/ticTacToe.png">
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-	</body>
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.js"
+	  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	</body>
 </html>
 
 
