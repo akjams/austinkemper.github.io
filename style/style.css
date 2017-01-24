@@ -1,13 +1,31 @@
+#header h1, #footer {
+	background: #181c1f;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
 
 #headshot {
 	height: 300px;
 	overflow: hidden;
+	box-shadow: 0 0 10px 10px  black;
+}
+
+#footerLinks {
+	text-align: center;
+}
+
+#footerLinks a {
+	padding: 0px 20px;
+	font-size: 30px;
 }
 
 #bio {
 	text-align: center;
 }
-#intro {
+#aboutMe {
+	width: 500px;
+	margin: 10px auto;
 }
 
 #links {
@@ -21,10 +39,15 @@
 
 #projects img {
 	width: 250px;
+	box-shadow: 0 0 10px 10px  black;
+
 }
 /* Projects */
 #projects {
 	text-align: center;
+}
+#projects h3 {
+	padding: 10px;
 }
 
 
