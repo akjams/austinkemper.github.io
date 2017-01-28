@@ -38,7 +38,7 @@
 
 
 #projects img {
-	width: 250px;
+	height: 250px;
 	box-shadow: 0 0 10px 10px  black;
 
 }
@@ -46,6 +46,11 @@
 #projects {
 	text-align: center;
 }
+.project {
+	margin: 40px 0px;
+	border-top: 1px dashed grey;
+}
+
 #projects h3 {
 	padding: 10px;
 }
