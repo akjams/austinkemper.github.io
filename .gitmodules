@@ -2,5 +2,5 @@
 	path = Pokemon-Battle
 	url = https://github.com/austinkemper/Pokemon-Battle.git
 [submodule "TileSolverFrontend"]
-	path = TileSolverFrontend
+	path = TileSolver
 	url = https://github.com/austinkemper/TileSolverFrontend
